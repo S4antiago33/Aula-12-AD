@@ -52,18 +52,18 @@ header {
 }
 
 @keyframes spin {
-    form{
-        transform: rotate(0);
-
+    from {
+        transform: rotate(0deg);
     }
-    
+
     to {
         transform: rotate(360deg);
     }
+
 }
 
 .logo img {
-    animation: 5s ;
+    animation: spin 3s linear infinite ;
 }
 
 .menu {
